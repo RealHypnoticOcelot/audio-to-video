@@ -4,7 +4,6 @@ from pathlib import Path
 import mutagen
 from mutagen.id3 import ID3, TIT2
 import tempfile
-from cs.psutils import print_argv
 from PIL import Image, ImageDraw
 import io
 

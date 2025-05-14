@@ -61,8 +61,6 @@ for audiofile in files:
             fp.write(metadata.getall("APIC")[0].data) # Create a temporary file for the cover art from the ID3 tags of the audio
             fp.flush()
             image = ffmpeg.input(fp.name, loop=1, framerate=2)
-            print(fp.name)
-            breakpoint()
         else: # If no APIC data, or if APIC tags aren't being used
             if customCover:
                 image = ffmpeg.input(customCover, loop=1, framerate=2)

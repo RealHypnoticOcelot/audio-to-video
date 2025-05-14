@@ -1,7 +1,4 @@
 # audio-to-video
-Converts .mp3 files to videos using ID3 tags or custom criteria
-
-# audio-to-video
 ###### Convert .mp3 files to videos!
 
 ## How to use:
